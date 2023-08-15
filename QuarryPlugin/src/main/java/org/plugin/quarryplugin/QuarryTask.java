@@ -36,7 +36,7 @@ public class QuarryTask extends BukkitRunnable {
         int oresProcessed = 0;
 
         for (int x = 0; x < 8 && oresProcessed < orePerTransfer; x++) {
-            for (int y = startY; y >= 1 && oresProcessed < orePerTransfer; y--) {
+            for (int y = startY; y >= -64 && oresProcessed < orePerTransfer; y--) {
                 for (int z = 0; z < 8 && oresProcessed < orePerTransfer; z++) {
                     Block block = chestLocation.getWorld().getBlockAt(startX + x, y, startZ + z);
 

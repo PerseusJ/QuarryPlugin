@@ -1,5 +1,5 @@
 name: QuarryPlugin
-version: '1.0' # Change this to match your project version
+version: '1.0'
 main: org.plugin.quarryplugin.QuarryPlugin
 api-version: '1.16'
 description: A simple plugin to create a quarry that automatically mines ores.
