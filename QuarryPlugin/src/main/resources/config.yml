@@ -1,0 +1,5 @@
+# Time that takes per ore to get into the 'Quarry Chest' (in seconds)
+ore_transfer_time: 2
+
+# Amount of ore that can be broken per time that takes to get into the 'Quarry Chest'
+ore_per_transfer: 10
